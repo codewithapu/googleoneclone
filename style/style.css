@@ -11,28 +11,20 @@
 body .section-1 .nav-bar .nav-icon-text{
     font-family: Plus Jakarta Display;
     font-weight: 400;
-    font-size: 70px;
+    font-size: 32px;
     padding-left: 4px;
     color: rgb(82, 80, 80);
-    padding-bottom: 20px;
+    padding-bottom: 14px;
 }
 
 body .section-1 .nav-bar{
     display: flex;
     align-items: center;
-    padding: 56px;
+    padding: 26px;
     justify-content: space-between;
 }
 
 body .section-1 .nav-bar .nav-icon{
-    height: 90px;
-}
-
-body .section-1 .nav-bar .more{
-    height: 40px;
-}
-
-body .section-1 .nav-bar .help{
     height: 40px;
 }
 
@@ -48,54 +40,54 @@ body .section-1 .nav-bar .menu{
 
 body .section-1 .nav-bar .menu .user{
     background-color: transparent;
-    height: 100px;
+    height: 40px;
     border-radius: 100%;
 }
 
 body .hello{
     text-align: center;
-    margin-top: 140px;
+    margin-top: 50px;
 }
 
 body .hello .hello-image{
-    height: 200px;
+    height: 100px;
     margin-bottom: 50px;
 
 }
 
 body .hello .hello-text{
     font-family: Plus Jakarta Display;
-    font-size: 130px;
+    font-size: 40px;
     font-weight: 400;
     margin: 45px 0 0;
 }
 
 body .hello .description{
-    font-size: 70px;
+    font-size: 23px;
     font-weight: 400;
     color: rgb(124, 123, 123);
     margin: 24px 0 0;
-    margin-top: 45px;
+    margin-top: 10px;
 }
 
 body .hello .button{
     background-color: #1a73e8;
     color: #fff;
-    padding: 29px 55px;
-    font-size: 50px;
+    padding: 14px 28px;
+    font-size:19px;
     font-family: Plus Jakarta Display;
     text-decoration: none;
     display: inline-block;
-    margin-top: 60px;
-    border-radius: 10px;
+    margin-top: 30px;
+    border-radius: 7px;
 }
 
 body .cards .heading-card{
     text-align: center;
-    font-size: 60px;
+    font-size: 30px;
     color: rgb(31, 29, 29);
-    font-weight: 500;
-    margin: 60px;
+    font-weight: 400;
+    margin: 30px;
 }
 
 
@@ -109,35 +101,36 @@ body .cards .card-1{
 
 body .cards{
     text-align: center;
+    padding: 45px;
 }
 
 body .cards .card-1 .cloud{
-    height: 80px;
-    padding: 45px;
-    margin-top: 45px;
+    height: 36px;
+    padding: 23px;
+    margin-top: 35px;
 }
 
 body .cards .card-1 .card-text{
-    font-size: 54px;
+    font-size: 23px;
 }
 
 body .cards .card-1 .card-description{
-    font-size: 45px;
+    font-size: 14px;
     color: rgb(100, 97, 97);
-    padding: 45px;
+    padding: 17px;
     margin-left: 45px;
     margin-right: 45px;
 }
 
 body .cards .card-1 .card-link{
     color: rgb(95, 176, 243);
-    padding: 29px 55px;
-    font-size: 45px;
+    padding: 12px 23px;
+    font-size: 18px;
     font-family: Plus Jakarta Display;
     text-decoration: none;
     display: inline-block;
-    border-radius: 10px;
-    margin-bottom: 100px;
+    border-radius: 3px;
+    margin-bottom: 50px;
     transition: 0.2s ease-in-out;
     cursor: pointer;
 }
@@ -145,10 +138,4 @@ body .cards .card-1 .card-link{
 body .cards .card-1 .card-link:hover{
     background-color: #d6e7fd;
     color: rgb(62, 137, 235);
-    padding: 29px 55px;
-    font-size: 45px;
-    font-family: Plus Jakarta Display;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 10px;
 }
