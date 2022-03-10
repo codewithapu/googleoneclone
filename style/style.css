@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-user-drag: none;
+    font-family: Plus Jakarta Display;
+}
+
+::selection { background: transparent; } 
+::-moz-selection { background: transparent; }
+
+body .section-1 .nav-bar .nav-icon-text{
+    font-family: Plus Jakarta Display;
+    font-weight: 400;
+    font-size: 70px;
+    padding-left: 4px;
+    color: rgb(82, 80, 80);
+    padding-bottom: 20px;
+}
+
+body .section-1 .nav-bar{
+    display: flex;
+    align-items: center;
+    padding: 56px;
+    justify-content: space-between;
+}
+
+body .section-1 .nav-bar .nav-icon{
+    height: 90px;
+}
+
+body .section-1 .nav-bar .more{
+    height: 40px;
+}
+
+body .section-1 .nav-bar .help{
+    height: 40px;
+}
+
+body .section-1 .nav-bar .google-one{
+    display: flex;
+    align-items: center;
+}
+
+body .section-1 .nav-bar .menu{
+    display: flex;
+    align-items: center;
+}
+
+body .section-1 .nav-bar .menu .user{
+    background-color: transparent;
+    height: 100px;
+    border-radius: 100%;
+}
+
+body .hello{
+    text-align: center;
+    margin-top: 140px;
+}
+
+body .hello .hello-image{
+    height: 200px;
+    margin-bottom: 50px;
+
+}
+
+body .hello .hello-text{
+    font-family: Plus Jakarta Display;
+    font-size: 130px;
+    font-weight: 400;
+    margin: 45px 0 0;
+}
+
+body .hello .description{
+    font-size: 70px;
+    font-weight: 400;
+    color: rgb(124, 123, 123);
+    margin: 24px 0 0;
+    margin-top: 45px;
+}
+
+body .hello .button{
+    background-color: #1a73e8;
+    color: #fff;
+    padding: 29px 55px;
+    font-size: 50px;
+    font-family: Plus Jakarta Display;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+body .cards .heading-card{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(31, 29, 29);
+    font-weight: 500;
+    margin: 60px;
+}
+
+
+body .cards .card-1{
+    border: 3px solid rgb(172, 171, 171);
+    border-radius: 20px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+}
+
+body .cards{
+    text-align: center;
+}
+
+body .cards .card-1 .cloud{
+    height: 80px;
+    padding: 45px;
+    margin-top: 45px;
+}
+
+body .cards .card-1 .card-text{
+    font-size: 54px;
+}
+
+body .cards .card-1 .card-description{
+    font-size: 45px;
+    color: rgb(100, 97, 97);
+    padding: 45px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+body .cards .card-1 .card-link{
+    color: rgb(95, 176, 243);
+    padding: 29px 55px;
+    font-size: 45px;
+    font-family: Plus Jakarta Display;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+body .cards .card-1 .card-link:hover{
+    background-color: #d6e7fd;
+    color: rgb(62, 137, 235);
+    padding: 29px 55px;
+    font-size: 45px;
+    font-family: Plus Jakarta Display;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
